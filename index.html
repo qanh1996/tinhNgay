@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="ip">
+<button onclick="tinhNgay()">Tinh So Ngay</button>
+<script>
+    function tinhNgay() {
+        let dauVao = +document.getElementById('ip').value;
+        switch (dauVao) {
+            case 1:
+                alert('thang 1 co 31 ngay');
+                break
+            case 2:
+                alert('thang 2 co 28 hoac 29 ngay');
+                break
+            case 3 :
+            case 4 :
+            case 5 :
+            case 6 :
+            case 7 :
+            case 8 :
+            case 9 :
+            case 10 :
+            case 11 :
+            case 12 :
+                alert('co 30 ngay');
+                break
+
+        }
+
+    }
+</script>
+</body>
+</html>
